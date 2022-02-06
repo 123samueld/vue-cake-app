@@ -1,0 +1,159 @@
+*{
+margin: 0;
+scroll-behavior: smooth;
+}
+html, body{
+padding: 0;
+margin: 0;
+height: 100%;
+width: 100%;
+}
+/* Small Phone and up */
+.centralBox{
+margin-right: auto;
+margin-left: auto;
+text-align: center;
+background: rgba(255, 255, 255, 0.25);
+border-radius: 200px 0px;
+}
+.centralBox h2{
+font-family: affair;
+color: #fffdd0;
+font-size: 10em;
+letter-spacing: 4px;
+}
+.inputFields{
+height: 150px;
+width: 800px;
+font-size: 5em;
+background: rgba(255,255,255, 0.75);
+border-radius: 50px 0px;
+font-family: hominFun;
+}
+.centralBox button{
+margin-top: 70px;
+height: 100px;
+width: 500px;
+font-size: 5em;
+border: none;
+font-family: hominFun;
+}
+.centralBox i{
+color: #000;
+}
+option[value=""][disabled] {
+display: none;
+}
+.inputTextField{
+height: 400px;
+}
+.centralBox select{
+height: 200px;
+width: 800px;
+font-size: 5em;
+font-family: hominFun;
+}
+.centralBox option{
+font-size: 0.25em;	
+}
+/* XL Phone and up */
+@media only screen and (min-device-width : 450px){
+.centralBox{
+margin-top: -6vh;
+height: 90vh;
+width: 80%;
+}
+.centralBox h2{
+font-size: 8em;
+}
+.inputFields{
+height: 7vh;
+width: 60vw;
+font-size: 3em;
+border-radius: 25px 0;
+}
+.centralBox select{
+margin-top: -8vh;
+height: 7vh;
+width: 60vw;
+font-size: 3em;
+border-radius: 25px 0;
+}
+.centralBox option{
+font-size: 0.5em;
+}
+.centralBox button{
+margin-top: 5vh;
+height: 8vh;
+width: 40vh;
+font-size: 3em;
+}
+}
+/* Tablet and up */
+@media only screen and (min-device-width : 600px){
+.centralBox{
+width: 60%;
+border-radius: 100px 0;
+}
+.centralBox h2{
+margin-top: 12vh;
+font-size: 5em;
+}
+.inputTextField{
+height: 200px;
+}
+.centralBox select{
+width: 60vw;
+}
+.inputFields{
+height: 6vh;
+width: 60vw;
+font-size: 2.5em;
+}
+.centralBox button{
+margin-top: 4vh;
+height: 7vh;
+width: 35vh;
+font-size: 2.5em;
+}
+}
+/* M Tablet and up */
+@media only screen and (min-device-width : 750px){
+.centralBox{
+width: 50%;
+}
+.centralBox h2{
+font-size: 4em;
+}
+.inputFields{
+width: 40vw;
+font-size: 2em;
+border-radius: 15px 0;
+}
+.centralBox select{
+width: 40vw;
+border-radius: 10px 0;
+font-size: 2em;
+}
+.centralBox option{
+font-size: 0.8em;
+}
+.inputTextField{
+height: 180px;
+}
+.centralBox button{
+margin-top: 3vh;
+height: 6vh;
+width: 30vh;
+font-size: 2em;
+}
+}
+/* L Tablet and up */
+@media only screen and (min-device-width : 1000px){
+.centralsBox select{
+border-radius: 15px 0;
+}
+.centralBox option{
+font-size: 0.9em;
+}
+}
